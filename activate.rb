@@ -7,7 +7,7 @@ class Activate < Formula
   sha256 "df6802e47e28718f316ed810673207b6ec15e19ac8181da64549b947ab3996a6"
 
   def install
-    system "mv", "activate.sh" "activate"
+    system "mv", "activate.sh", "activate"
     bin.install "activate"
   end
 
